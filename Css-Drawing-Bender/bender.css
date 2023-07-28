@@ -1,0 +1,191 @@
+/* bender */
+.contenedor{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: burlywood;
+    border: solid 2px rgba(0, 0, 0, 0.615);
+    border-radius:5px;
+}
+.header-bender{
+    margin: auto;
+    margin-top: 200px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    border-bottom: solid 2px black;
+    border-left:solid 2px black ;
+    border-right:solid 2px black ;
+    z-index: 1;
+    box-shadow: 0 0 10px 1px black;
+    background-color:rgb(128, 142, 145);
+    cursor: pointer;
+}
+/*  */
+.header-bender_top-header{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: -100px;
+    left: -2px;
+    background-color:rgb(128, 142, 145);
+    border-radius:51% 49% 100% 0% / 100% 100% 0% 0%;
+    border-left:solid 2px black ;
+    border-right:solid 2px black ;
+    border-top:solid 2px black ;
+    box-shadow: 0 0 10px 1px black ;
+}
+.top-header_base-antena{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -17px;
+    border-radius: 50%;
+    background-color:rgb(128, 142, 145);
+    border: solid 2px black;
+    left: 80px;
+    z-index: -1;
+    box-shadow: 0 0 10px 1px black;
+}
+.base-antena_antena{
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    top: -32px;
+    left: 8px;
+    background-color:rgb(128, 142, 145);
+    border: solid 2px black;
+    box-shadow: 0 0 10px 1px black;
+}
+.base-antena_antena-top{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -15px;
+    left: -6px;
+    border-radius: 50%;
+    background-color:rgb(128, 142, 145);
+    border: solid 2px black;
+    box-shadow: 0 0 10px 1px black;
+}
+/* Cont-Ojos */
+.cont-ojos{
+    position: absolute;
+    width:200px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    top: 5px;
+    border: solid 10px rgb(128, 142, 145);
+    box-shadow: 0 0 10px 1px rgb(3, 40, 88);
+}
+/* left: */
+.cont-ojos_left{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background-color: rgb(233, 233, 222);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px rgb(241, 242, 244);
+    left: 20px;
+    top: 15px;
+    overflow: hidden;
+}
+.cont-ojos_parpado{
+    position: absolute;
+    width: 100px;
+    height:50px;
+    top: -25px;
+    background-color: rgb(9, 10, 10);
+    animation: mover infinite 7s;
+    box-shadow: 0 0 10px 1px rgb(36, 81, 170) inset;
+}
+@keyframes mover {
+    50%{
+       transform: translateY(30%);
+    }    
+}
+.cont-ojos_punto{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    left: 28px;
+    bottom: 27px;
+    border-radius: 2px;    
+}
+/* right */
+.cont-ojos_right{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background-color: rgb(233, 233, 222);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px rgb(241, 242, 244);
+    top: 15px;
+    overflow: hidden;
+    right: 20px;
+}
+/* Boca */
+.cont-boca{
+    position: absolute;
+    width: 186px;
+    height: 80px;
+    left:3px;
+    background-color: rgb(175, 169, 95);
+    border-radius: 10px;
+    bottom: 22px;
+    border: solid 4px black;
+    box-shadow: 0 0 10px 1px rgb(10, 10, 10) inset;
+    overflow: hidden;
+}
+.cont-boca_lineaX1{
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    background-color: black;
+    top: 20px;
+}
+.cont-boca_lineaX2{
+    position: absolute;
+    width: 300px;
+    height:5px;
+    background-color: black;
+    bottom: 20px;
+}
+.cont-boca_lineaY1{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    left:10px ;
+    background-color: black;
+}
+.cont-boca_lineaY2{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    left:50px ;
+    background-color: black;
+}
+.cont-boca_lineaY3{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    left:90px ;
+    background-color: black;
+}
+.cont-boca_lineaY4{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    right:10px ;
+    background-color: black;
+}
+.cont-boca_lineaY5{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    right:50px ;
+    background-color: black;
+}
